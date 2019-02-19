@@ -5,9 +5,10 @@ This project is an open source implementation of the graph convolutional neural 
 
 For licensing reasons, we are not allowed to open the dataset used in our experiments, but the some open source dataset is available at https://www.udparty.com/index.php. Besides, OpenStreetMap(https://www.openstreetmap.org) may be a potential source of data for some geographic deep learning task, although some of the data are not well labeled and there are some quality issues to be addressed.
 
-Please kinedly note that the neural network architecture in this project referred to the open source project contributed by Michaël Defferrard et al. (https://github.com/mdeff/cnn_graph). However, the input in the original project is limited to a fixed graph structure,i.e. the graph structures of input samples are the same; in this modified version, the graph structures of input samples are different.
+Please kinedly note that the neural network architecture in this project referred to the open source project contributed by Michaël Defferrard et al. (https://github.com/mdeff/cnn_graph). However, the input in the original project is limited to a fixed graph structure, i.e. the graph structures of input samples are the same; in this modified version, the graph structures of input samples are different.
 
 Please cite our paper if you use it:
+
 Xiongfeng Yan, Tinghua Ai, Min Yang and Hongmei Yin, 2019. A graph convolutional neural network for classification of building patterns using spatial vector data. ISPRS Journal of Photogrammetry and Remote Sensing.
 
 Please contact me if you have further questions:
