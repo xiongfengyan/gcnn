@@ -1,0 +1,4 @@
+tensorboard --logdir name1:/path/to/logs/1,name2:/path/to/logs/2
+
+Example:
+tensorboard --logdir run1:./summaries/DT_k=1,run2:./summaries/DT_k=2
