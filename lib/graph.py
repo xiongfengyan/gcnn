@@ -1,4 +1,4 @@
-# Please kindly note that the neural network architecture referred to the open source project
+# Please kindly note that the implementation of graph algorithms referred to the open source project
 # contributed by Michaël Defferrard et al. (https://github.com/mdeff/cnn_graph).
 
 # Copyright (c) 2016 Michaël Defferrard
