@@ -13,7 +13,7 @@ However, the input in the original project is limited to a fixed graph structure
 
 Please cite our paper if you use it:
 
-Xiongfeng Yan, Tinghua Ai, Min Yang and Hongmei Yin, 2019. A graph convolutional neural network for classification of building patterns using spatial vector data. ISPRS Journal of Photogrammetry and Remote Sensing, 150, 259-273.
+Xiongfeng Yan, Tinghua Ai, Min Yang, and Hongmei Yin, 2019. A graph convolutional neural network for classification of building patterns using spatial vector data. ISPRS Journal of Photogrammetry and Remote Sensing, 150, 259-273.
 
 Please contact me if you have further questions:
 xiongfeng.yan@whu.edu.cn
