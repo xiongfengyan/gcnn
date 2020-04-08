@@ -2,6 +2,7 @@
 A graph convolutional neural network for classification of building patterns using spatial vector data
 
 This project is an open source implementation of the graph convolutional neural network for classification of building group patterns using spatial vector data.
+
 The initial aim of our work is to introduce a novel deep learning approach to solve the traditional cognitive problems in map space. For details, one could refer to our paper 'A Graph Convolutional Neural Network for Classification of Building Patterns using Spatial Vector Data', which takes the classification of building group patterns as a case study.
 
 For licensing reasons, we are not allowed to open the dataset used in our experiments, but the some open source dataset is available at https://www.udparty.com/index.php. Besides, OpenStreetMap(https://www.openstreetmap.org) may be a potential source of data for some geographic deep learning task, although some of the data are not well labeled and there are some quality issues to be addressed.
