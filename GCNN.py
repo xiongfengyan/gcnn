@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # [vertices_geometry, vertices_fourier, adjacencies, labels]
 # train_dataset,val_dataset,test_dataset=load_data('./data/test_data_batch_mini.json')
 # train_dataset, val_dataset, test_dataset = input_data.load_data('./data/testExtra0725r.json', dataSeparation=[0.6, 0.2, 0.2]) #
-train_dataset, val_dataset, test_dataset = dataLoading.load_data('./lib/data/gz1124rrri.json', dataSeparation=[0.8, 0.18, 0.02])     # test228r
+train_dataset, val_dataset, test_dataset = dataLoading.load_data('./lib/data/test20ri.json', dataSeparation=[0.8, 0.18, 0.02])     # test228r
 # Number of samples.
 n_train = train_dataset[4]
 # Number of classes.
