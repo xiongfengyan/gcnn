@@ -11,10 +11,10 @@ Please kinedly note that the implementation of neural network architecture in th
 -------------------------
 
 This update provides a small sample dataset. The dataset contains 20 samples, including 7 irregular groups and 13 regular groups. They include a total of 1424 buildings and are stored in the shapefile format named “test20r.shp”. This shapefile contains 4 fields:
- -- “type” represents the group type. Specifically, a value of 1 indicates that the group where the building is in an irregular pattern, and 3 is a regular pattern.
- -- “inFID” represents the group ID, buildings in the same group have the same inFID value.
- -- “A” represents the area of the building;
- -- “Density” represents the density of the building, and its computation method please refers to the Section 3.2 of our paper.
+-- “type” represents the group type. Specifically, a value of 1 indicates that the group where the building is in an irregular pattern, and 3 is a regular pattern.
+-- “inFID” represents the group ID, buildings in the same group have the same inFID value.
+-- “A” represents the area of the building;
+-- “Density” represents the density of the building, and its computation method please refers to the Section 3.2 of our paper.
 
 
 Three steps:
