@@ -44,7 +44,10 @@ Please note:
  -- labels: N x 1,
  
 where, N is the number of samples, S is the number of buildings contained in each sample (that is, the number of graph nodes), and F is the feature dimension of the node.
-You can also organize your data in the above specifications and feed it to the GCNN model for classification. Good luck!
+
+You can also organize your data in the above specifications and feed it to the GCNN model for classification. 
+
+Good luck!
 
 
 
