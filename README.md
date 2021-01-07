@@ -12,7 +12,7 @@ Please kinedly note that the implementation of neural network architecture in th
 
 
 
--------------------------
+--------------------------------------------------------------
 
 This update provides a small sample dataset. The dataset contains 20 samples, including 7 irregular groups and 13 regular groups. They include a total of 1424 buildings and are stored in the shapefile format named “test20r.shp”. This shapefile contains 4 fields:
 
@@ -25,7 +25,7 @@ This update provides a small sample dataset. The dataset contains 20 samples, in
 -- “Density” represents the density of the building, and its computation method please refers to the Section 3.2 of our paper.
 
 
-
+--------------------------------------------------------------
 
 
 Three steps:
@@ -37,7 +37,7 @@ Three steps:
 3. Run GCNN.py to process the test20ri.json, and also please pay attention to modify the name on line 14.
 
 
-
+--------------------------------------------------------------
 
 Please note:
 1. Due to the small number of samples (less than a batch size), it is not advisable to train on this dataset, and an error will occur in line 93. But those codes for data preparation are passable, which may help you understand the specifications of the data.
@@ -57,7 +57,7 @@ You can also organize your data in the above specifications and feed it to the G
 Good luck!
 
 
-
+--------------------------------------------------------------
 
 
 Please cite our paper if you use it:
