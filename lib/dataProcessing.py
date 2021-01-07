@@ -361,7 +361,7 @@ def interpretingData(inFIDDic):
             Node_features.append(geo_features)
         interpretedDic[k] = [label, Node_coords, Node_features]
     
-    with open('./data/ac1201i.json','w') as json_file:
+    with open('./data/test20ri.json','w') as json_file:
         json.dump(interpretedDic, json_file, indent = 2, ensure_ascii = False)
 
-process_data('./data/ac1201.json')
+process_data('./data/test20r.json')
