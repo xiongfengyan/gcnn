@@ -9,6 +9,9 @@ Please kinedly note that the implementation of neural network architecture in th
 
 
 
+
+
+
 -------------------------
 
 This update provides a small sample dataset. The dataset contains 20 samples, including 7 irregular groups and 13 regular groups. They include a total of 1424 buildings and are stored in the shapefile format named “test20r.shp”. This shapefile contains 4 fields:
@@ -23,6 +26,8 @@ This update provides a small sample dataset. The dataset contains 20 samples, in
 
 
 
+
+
 Three steps:
 
 1. Use the “Feature to JSON” tool in ArcMap (you can also use other tools, but I haven't tested them) to convert the test20r.shp file to a GeoJson format file named “test20r.json”.
@@ -30,6 +35,8 @@ Three steps:
 2. Run dataProcessing.py to interpret the “test20r.json” file (i.e. calculate the descriptive characteristics for each building) and store it as a Json file named “test20ri.json”. Please change the corresponding file name on lines 364 and 367.
 
 3. Run GCNN.py to process the test20ri.json, and also please pay attention to modify the name on line 14.
+
+
 
 
 Please note:
@@ -51,9 +58,13 @@ Good luck!
 
 
 
+
+
 Please cite our paper if you use it:
 
 Xiongfeng Yan, Tinghua Ai, Min Yang, and Hongmei Yin, 2019. A graph convolutional neural network for classification of building patterns using spatial vector data. ISPRS Journal of Photogrammetry and Remote Sensing, 150, 259-273.
+
+
 
 
 
