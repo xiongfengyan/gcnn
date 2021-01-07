@@ -25,9 +25,9 @@ Please note:
 1. Due to the small number of samples (less than a batch size), it is not advisable to train on this dataset, and an error will occur in line 93. But those codes for data preparation are passable, which may help you understand the specifications of the data.
 
 2. After deciphering the shapefile, the test, validation, and training datasets are obtained. They are all composed of three parts: vertices, adjacecies, and labels. They are stored in numpy.array and the specifications are (printed on lines 22-37):
- -- vertices: N x S x F
- -- adjacecies: N x S x S
- -- labels: N x 1
+ -- vertices: N x S x F,
+ -- adjacecies: N x S x S,
+ -- labels: N x 1,
 where, N is the number of samples, S is the number of buildings contained in each sample (that is, the number of graph nodes), and F is the feature dimension of the node.
 You can also organize your data in the above specifications and feed it to the GCNN model for classification. Good luck!
 
